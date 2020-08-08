@@ -26,52 +26,11 @@ Each CSS file has an image file of the same name that it expects to be present i
 
 Sprites are accessible by adding a `<span>` with the right class name:
 
-<table>
-<tr>
-<th>HTML</th>
-<th>Result</th>
-</tr>
-
-<tr>
-<td>
-<div class="highlight highlight-source-html">
-<pre>
-<span class="pl-kos">&lt;</span><span class="pl-ent">span</span> <span class="pl-c1">class</span>="<span class="pl-s">pokesprite pokemon bulbasaur</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">span</span><span class="pl-kos">&gt;</span>
-</pre>
-</div>
-</td>
-<td>
-<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/bulbasaur.png" width="68" alt="Bulbasaur">
-</td>
-</tr>
-
-<tr>
-<td>
-<div class="highlight highlight-source-html">
-<pre>
-<span class="pl-kos">&lt;</span><span class="pl-ent">span</span> <span class="pl-c1">class</span>="<span class="pl-s">pokesprite pokemon bulbasaur shiny</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">span</span><span class="pl-kos">&gt;</span>
-</pre>
-</div>
-</td>
-<td>
-<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/bulbasaur.png" width="68" alt="Bulbasaur (shiny)">
-</td>
-</tr>
-
-<tr>
-<td>
-<div class="highlight highlight-source-html">
-<pre>
-<span class="pl-kos">&lt;</span><span class="pl-ent">span</span> <span class="pl-c1">class</span>="<span class="pl-s">pokesprite ball dusk</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">span</span><span class="pl-kos">&gt;</span>
-</pre>
-</div>
-</td>
-<td>
-<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/dusk.png" width="32" alt="Dusk ball">
-</td>
-</tr>
-
-</table>
+| HTML | Result |
+|:-----|:------:|
+| `<span class="pokesprite pokemon bulbasaur">` | ![Bulbasaur](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/bulbasaur.png) |
+| `<span class="pokesprite pokemon bulbasaur shiny">` | ![Bulbasaur (shiny)](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/bulbasaur.png) |
+| `<span class="pokesprite ball dusk">` | ![Dusk ball](https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/dusk.png) |
 
 ## License
 
