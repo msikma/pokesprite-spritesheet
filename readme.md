@@ -32,6 +32,11 @@ Sprites are accessible by adding a `<span>` with the right class name:
 | `<span class="pokesprite pokemon bulbasaur shiny">` | ![Bulbasaur (shiny)](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/bulbasaur.png) |
 | `<span class="pokesprite ball dusk">` | ![Dusk ball](https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/dusk.png) |
 
+## Related projects
+
+* [PokéSprite](https://github.com/msikma/pokesprite) – main project and image database
+* [pokesprite-gen](https://github.com/msikma/pokesprite-gen) – tool that generates the content of this repo
+
 ## License
 
 The sprite images are © Nintendo/Creatures Inc./GAME FREAK Inc.
