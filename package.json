@@ -1,0 +1,12 @@
+{
+  "name": "pokesprite-spritesheet",
+  "version": "2.2.2",
+  "description": "Spritesheet of all Pokémon box sprites and inventory items",
+  "homepage": "https://github.com/msikma/pokesprite-spritesheet",
+  "repository": "git+https://github.com/msikma/pokesprite-spritesheet",
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
