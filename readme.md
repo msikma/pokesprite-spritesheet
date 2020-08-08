@@ -8,7 +8,21 @@ This repo contains a spritesheet build automatically from the [PokéSprite proje
 
 See [the overview page](#) for a list of all supported sprites.
 
-## Adding sprites to a page
+## Including the library in a page
+
+To get started, add any of these CSS files to the `<head>` of your page:
+
+```html
+<link rel="stylesheet" href="pokesprite-pokemon-gen8.css" />
+<link rel="stylesheet" href="pokesprite-inventory.css" />
+<link rel="stylesheet" href="pokesprite-misc.css" />
+```
+
+In most cases, you'd only want the first—this one contains **Pokémon sprites**. The second contains **inventory items**, and the third **miscellaneous sprites** of various types. How you point to the CSS files depends on how you're using this library. (TODO: add examples.)
+
+Each CSS file has an image file of the same name that it expects to be present in the same directory.
+
+### Displaying sprites
 
 Sprites are accessible by adding a `<span>` with the right class name:
 
