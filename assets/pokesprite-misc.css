@@ -2,6 +2,7 @@
 .pokesprite.ribbon { background: url('pokesprite-misc.png'); image-rendering: pixelated; image-rendering: -moz-crisp-edges }
 .pokesprite.body-style { background: url('pokesprite-misc.png'); image-rendering: pixelated; image-rendering: -moz-crisp-edges }
 .pokesprite.special-attribute { background: url('pokesprite-misc.png'); image-rendering: pixelated; image-rendering: -moz-crisp-edges }
+.pokesprite.seals { background: url('pokesprite-misc.png'); image-rendering: pixelated; image-rendering: -moz-crisp-edges }
 .pokesprite.ribbon.ability-ribbon { width: 40px; height: 40px; background-position: -0px -0px }
 .pokesprite.ribbon.alert-ribbon { width: 40px; height: 40px; background-position: -42px -0px }
 .pokesprite.ribbon.alola-champion-ribbon { width: 40px; height: 40px; background-position: -84px -0px }
@@ -131,3 +132,6 @@
 .pokesprite.special-attribute.leaf-crown--shadow { width: 31px; height: 22px; background-position: -839px -84px }
 .pokesprite.special-attribute.mega-evolution-sigil-gen6 { width: 16px; height: 16px; background-position: -872px -84px }
 .pokesprite.special-attribute.mega-evolution-sigil { width: 16px; height: 16px; background-position: -890px -84px }
+.pokesprite.seals.move-physical { width: 32px; height: 14px; background-position: -908px -84px }
+.pokesprite.seals.move-special { width: 32px; height: 14px; background-position: -942px -84px }
+.pokesprite.seals.move-status { width: 32px; height: 14px; background-position: -976px -84px }
