@@ -32,6 +32,12 @@ Sprites are accessible by adding a `<span>` with the right class name:
 | `<span class="pokesprite pokemon bulbasaur shiny">` | ![Bulbasaur (shiny)](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/bulbasaur.png) |
 | `<span class="pokesprite ball dusk">` | ![Dusk ball](https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/dusk.png) |
 
+## Limitations
+
+Currently, only sprites that are meant to be displayed as *pixel art* are included in the spritesheet. There are many miscellaneous sprites that are meant to be displayed at higher resolutions, such as the Sword/Shield images for the ribbons. Putting large images in a spritesheet is generally not desirable due to the large size of the composite image. It's also less convenient for setting a custom display size, which is possible for some of these larger sprites as not all of them have a specific target size.
+
+As a result these larger sprites are currently not part of the generated spritesheet, although more sprites will be included in a future update.
+
 ## Related projects
 
 * [PokéSprite](https://github.com/msikma/pokesprite) – main project and image database
